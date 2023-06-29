@@ -13,51 +13,32 @@
 
           <div class="row mt-5 justify-content-center align-items-center">
             <div class="col-10 card elevation-5 m-2" style="background-color: #39456b98;">
-              <h5 class="card-header header-left text-light"><u>About Me</u></h5>
-              <p class="small card-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolores exercitationem temporibus voluptatum modi amet sunt, facilis optio accusantium, a ratione deleniti eligendi. Consequatur numquam possimus omnis in commodi sunt.</p>
+              <h5 class="card-header header-left text-light section-heading"><u>About Me</u></h5>
+              <article class="card-left text-start resume-section">
+                <p>My journey into coding was inspired by a deep personal motivation to pursue a career that aligns with my true potential.
+                </p>
+                <p>Highly motivated and dedicated, I am an aspiring full stack software developer with a strong passion for coding and a proven track record of rapid skill acquisition. This extended from rigorous self-study for computer programming - earning multiple certifications in the process.
+                </p>
+                <p>This enabled me to pass Boise CodeWorks vigorous technical exam and develop proficiency in building full stack applications with a collaborative mindset honed through previous teamwork experiences, I thrive in environments that foster creativity, innovation, and efficient collaboration.
+                </p>
+              </article>
             </div>
           </div>
 
-          <div class="row justify-content-center align-items-center">
-            <div class="col-10 card elevation-5 m-2" style="background-color: #d5dae898;">
-              <h5 class="card-header header-left"><u>Hobbies</u></h5>
-              <div class="row card-body card-text card-left justify-content-around">
-                <div class="col-4 fs-3 m-1">
-                  <i class="mdi mdi-laptop" style="color: #158cfc; text-shadow: 1px 1px 3px black;"></i>
-                </div>
-                <div class="col-4 fs-3 m-1">
-                  <i class="mdi mdi-human-male-female-child shadow-lg elevation-5" style="color: skyblue; text-shadow: 1px 1px 3px black;"></i>
-                </div>
-                <div class="col-4 fs-3 m-1">
-                  <i class="mdi mdi-forest" style="color: #0e6c0e; text-shadow: 1px 1px 3px black;"></i>
-                </div>
-                <div class="col-4 fs-3 m-1">
-                  <i class="mdi mdi-handshake" style="color: #af9f77; text-shadow: 1px 1px 3px black;"></i>
-                </div>
-                <div class="col-4 fs-3 m-1">
-                  <i class="mdi mdi-atom" style="color: #00ffaa; text-shadow: 1px 1px 3px black;"></i>
-                </div>
-                <div class="col-4 fs-3 m-1">
-                  <i class="mdi mdi-account-multiple" style="color: #7109a5; text-shadow: 1px 1px 3px black;"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center my-2 mb-3">
             <div class="col-10 card mx-2" style="background-color: #39456b98;">
-              <h5 class="card-header header-left mb-0"><u>Contact</u></h5>
-              <div class="card-body card-text card-left">
+              <h5 class="card-header header-left mb-0 section-heading"><u>Contact</u></h5>
+              <div class="card-body card-text card-leftresume-section">
                 <div class="d-flex justify-content-center">
                   <i class="mdi mdi-card-account-mail text-light text-center fs-2 pb-2"></i>
                   <p class="fw-bold ms-3 mt-2"> : wanderwithme1988@gmail.com</p>
                 </div>
-                <article class="fs-1 d-flex justify-content-between align-items-center">
+                <article class="fs-1 d-flex justify-content-between align-items-centerresume-section">
                   <p><a href="https://www.linkedin.com/in/anthonyvancattenburch/" role="button" class="card-text card-left"><i class="mdi mdi-linkedin" style="color: #1e90ff;"></i></a></p>
                   <p><a href="https://github.com/AJVancattenburch" role="button" class="card-text card-left"><i class="mdi mdi-github" style="color: #1e1d2c;"></i></a></p>
                   <p><a href="www.instagram.com/" role="button" class="card-text card-left"><i class="mdi mdi-instagram" style="color: #ff1e87;"></i></a></p>
                 </article>
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-centerresume-section">
                   <i class="mdi mdi-cellphone text-dark fs-2"></i>
                   <p class="fw-bold mt-2">: (208) 637-5436</p>
                 </div>
@@ -65,7 +46,23 @@
             </div>
           </div>
 
-          <div class="row justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center m-2">
+            <div class="card github-card">
+              <div class="col-12 my-3">
+                <h4 class="card-header header-left bg-accent-secondary section-heading">Current Github Activity {April - July}</h4>
+                <div class="row ps-3resume-section">
+                  <div class="col-6">
+                    <img src="src/assets/img/githubCommitStatus.jpeg" class="img-fluid rounded-2" style="height: 200px; aspect-ratio: 1/1;" alt="githubStatusImg">
+                  </div>
+                  <div class="col-6">
+                    <img src="src/assets/img/githubCommitsGraph.jpeg" class="img-fluid rounded-2" style="height: 200px; aspect-ratio: 1/1;" alt="githubGraphImg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="row justify-content-center align-items-center my-2">
             <div class="col-10 card m-2" style="background-color: #39456b98;">
               <h5 class="card-header header-left text-light"><u>Interests</u></h5>
               <div class="row card-body">
@@ -81,19 +78,29 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="row justify-content-center align-items-center">
-            <div class="card github-card">
-              <div class="col-12 my-3">
-                <h4 class="card-header header-left bg-accent-secondary">Current Github Activity {April - July}</h4>
-                <div class="row ps-3">
-                  <div class="col-6">
-                    <img src="src/assets/img/githubCommitStatus.jpeg" class="img-fluid rounded-2" style="height: 200px; aspect-ratio: 1/1;" alt="githubStatusImg">
-                  </div>
-                  <div class="col-6">
-                    <img src="src/assets/img/githubCommitsGraph.jpeg" class="img-fluid rounded-2" style="height: 200px; aspect-ratio: 1/1;" alt="githubGraphImg">
-                  </div>
+            <div class="col-10 card elevation-5 m-2" style="background-color: #39456b98;">
+              <h5 class="card-header header-left section-heading"><u>Hobbies</u></h5>
+              <div class="row card-body card-text card-left justify-content-aroundresume-section">
+                <div class="col-3 fs-1 m-1">
+                  <i class="mdi mdi-laptop" style="color: #158cfc; text-shadow: 1px 1px 3px black;"></i>
+                </div>
+                <div class="col-3 fs-1 m-1">
+                  <i class="mdi mdi-human-male-female-child shadow-lg elevation-5" style="color: skyblue; text-shadow: 1px 1px 3px black;"></i>
+                </div>
+                <div class="col-3 fs-1 m-1">
+                  <i class="mdi mdi-forest" style="color: #0e6c0e; text-shadow: 1px 1px 3px black;"></i>
+                </div>
+                <div class="col-3 fs-1 m-1">
+                  <i class="mdi mdi-handshake" style="color: #af9f77; text-shadow: 1px 1px 3px black;"></i>
+                </div>
+                <div class="col-3 fs-1 m-1">
+                  <i class="mdi mdi-atom" style="color: #00ffaa; text-shadow: 1px 1px 3px black;"></i>
+                </div>
+                <div class="col-3 fs-1 m-1">
+                  <i class="mdi mdi-account-multiple" style="color: #7109a5; text-shadow: 1px 1px 3px black;"></i>
                 </div>
               </div>
             </div>
@@ -104,41 +111,62 @@
 
         <section class="col-8 bg-right">
 
-          <h1 class="my-name">Anthony Vancattenburch</h1>
+          <h1 class="my-name section-heading">Anthony Vancattenburch</h1>
           <div class="bg-profession-tag py-2">
             <h3><em>Full Stack Developer</em></h3>
           </div>
 
           <div class="row ps-4 mt-2">
-            <div class="col-12">
-              <h2 class="mt-3 text-uppercase card-header header-right"><u>career objective</u></h2>
-              <p class="text-justify card-text card-right">Lorem ipsum</p>
+            <div class="col-12resume-section">
+              <h2 class="mt-3 text-uppercase card-header header-right section-heading"><u>career objective</u></h2>
+              <p class="text-justify card-text card-right">Driven by my personal journey and guided by a deep sense of purpose, I am excited to embark on this new chapter in my career. I bring perseverance, integrity, and a rapid learning ability to every project, striving to create impactful software solutions that push boundaries and drive positive change.</p>
             </div>
           </div>
 
           <div class="row px-1 mt-5">
 
             <div class="col-6 card experience-card shadow mx-2 ms-5" style="width: 45%;">
-              <h2 class="card-header header-right mt-2">Experience</h2>
-              <div class="col-12">
-                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2">Company Name</p>
-                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2">City, State</p>
-                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2 mb-3">Employed from {date} to {date}</p>
+              <h2 class="card-header header-right mt-2 section-heading">Work Experience</h2>
+              <div class="col-12resume-section">
+                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2">US Mirror and Glass</p>
+                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2">Boise, Idaho</p>
+                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2 mb-3">Employed from 04/2020 to 02/2023</p>
+                <p class="text-uppercase bg-accent-small card-right w-50 ms-4 mt-0 ps-3" style="opacity: .9;">Key Responsibilities</p>
                   <ul class="card-right ps-5">
-                    <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
-                    <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
-                    <li class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</li>
+                    <li class="resume-section">Problem-solving
+                      <ul>
+                        <li>
+                          Constantly analyzed complex situations and find creative solutions.
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="resume-section">
+                      Team collaboration
+                      <ul>
+                        <li>
+                          Experience working collaboratively with a team that delivers results. As well as with outside sources like Project Coordinators, Designers, and Clients in the glazing industry.
+                        </li>
+                      </ul> 
+                    </li>
+                    <li class="">
+                      Attention to detail
+                      <ul>
+                        <li>
+                          I have an inexplicable meticulousness in ensuring precise measurements, cuts, and installations that I adhered to consistently throughout my career.
+                        </li>
+                      </ul>
+                    </li>
                   </ul>
               </div>
             </div>
             
             <div class="col-6 card experience-card shadow pb-3 ms-2" style="width: 45%;">
-              <h2 class="card-header header-right mb-0 mt-2">Projects</h2>
+              <h2 class="card-header header-right mb-0 mt-2 section-heading">Projects</h2>
 
               <div class="row">
                 <div class="col-12">
 
-                  <article class="">
+                  <article class="resume-section">
                       <h5 class="card-header header-right bg-accent">Game Pursuit { Team Capstone }</h5>
       
                         <p class="card-text card-right">
@@ -174,7 +202,7 @@
 
           <div class="row ps-4 mt-5">
             <div class="col-12">
-              <h2 class="mt-3 text-uppercase card-header"><u>Education</u></h2>
+              <h2 class="mt-3 text-uppercase card-header section-heading"><u>Education</u></h2>
               <h3 class="card-text card-right">Boise CodeWorks - Full Stack Certification</h3>
               <ul>
                 <li></li>
@@ -185,51 +213,72 @@
             </div>
           </div>
 
-          <div class="row ps-4 mt-5">
+          <div class="row ps-4 mt-5 ">
 
             <div class="col-6">
-              <h2 class="card-header header-right mt-3 text-uppercase mb-4"><u>Certifications</u></h2>
-              <p class="text-uppercase card-text card-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-              <p class="text-uppercase card-text card-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-              <p class="text-uppercase card-text card-right mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+              <h2 class="card-header header-right mt-3 text-uppercase mb-4 section-heading"><u>Certifications</u></h2>
+              <p class="text-uppercase card-text card-right"><a href="https://wildlearner-users-prod.s3.amazonaws.com/113750258787420158501/certificate_1677448947255.jpg">HTML Course - Cert ID: 832-html-403243</a></p>
+
+              <p class="text-uppercase card-text card-right"><a href="https://wildlearner-users-prod.s3.amazonaws.com/113750258787420158501/certificate_1677609457823.jpg">CSS Course - Cert ID: 499-css-918572</a></p>
+
+              <p class="text-uppercase card-text card-right mb-4"><a href="https://wildlearner-users-prod.s3.amazonaws.com/113750258787420158501/certificate_1677625265592.jpg">JavaScript Course - Cert ID: 812-js-444156</a></p>
+
+              <p class="text-uppercase card-text card-right mt-5" style="font-size: 1.1rem; margin-bottom: .5rem;"><b>Boise CodeWorks - Completed Online Courses</b></p>
+              <p class="text-uppercase card-text card-right" style="margin-bottom: .0; margin-top: 0;">Bootstrap | Balloon Pop (Simple video game) |</p>
+              <p class="text-uppercase card-text card-right" style="margin-bottom: .0; margin-top: 0;">Vue 3 | Advancing With JavaScript |</p>
+              <p class="text-uppercase card-text card-right" style="margin-bottom: .0; margin-top: 0;">Your Last Into to Web Development</p>
             </div>
 
-            <div class="col-6">
-              <h2 class="card-header header-right mt-3 text-uppercase mb-4"><u>Technical Proficiencies</u></h2>
+            <div class="col-6 footer-card">
+              <h2 class="card-header header-right mt-3 text-uppercase mb-4 section-heading"><u>Technical Proficiencies</u></h2>
 
-              <article>
-                <div class="col-12 fw-bolder">HTML5</div>
-                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-danger" style="width: 100%"></div>
-                </div>
-  
+              <article class="resume-section">
+                <div class="col-12">EXPRESS / VUE.JS</div>
                 <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">
-                  <div class="progress-bar bg-success" style="width: 25%">SQL</div>
+                  <div class="progress-bar bg-success" style="width: 100%"></div>
                 </div>
-  
+
+                <div class="col-12">NODE.JS</div>
                 <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-info text-dark" style="width: 50%"></div>
+                  <div class="progress-bar bg-info text-dark" style="width: 100%"></div>
                 </div>
-  
-                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-warning text-dark" style="width: 75%"></div>
-                </div>
-  
-                <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">
-                  <div class="progress-bar bg-success" style="width: 25%"></div>
-                </div>
-  
-                <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-info text-dark" style="width: 50%"></div>
-                </div>
-  
-                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-warning text-dark" style="width: 75%"></div>
-                </div>
-  
+
+                <div class="col-12">RESTful API / CRUD</div>
                 <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-danger" style="width: 100%"></div>
+                  <div class="progress-bar bg-danger" style="width: 90%"></div>
                 </div>
+  
+  
+                <div class="col-12">BOOTSTRAP / SCSS / SASS</div>
+                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-warning text-dark" style="width: 100%"></div>
+                </div>
+  
+                <div class="col-12">TAILWIND</div>
+                <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">
+                  <div class="progress-bar bg-primary" style="width: 85%"></div>
+                </div>
+  
+                <div class="col-12">JAVASCRIPT</div>
+                <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-success text-dark" style="width: 100%"></div>
+                </div>
+  
+                <div class="col-12">MVC</div>
+                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-info text-dark" style="width: 100%"></div>
+                </div>
+  
+                <div class="col-12">C#</div>
+                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-danger" style="width: 60%"></div>
+                </div>
+
+                <div class="col-12">HTML5</div>
+                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                  <div class="progress-bar bg-warning" style="width: 100%"></div>
+                </div>
+
               </article>
 
             </div>
@@ -308,6 +357,15 @@ export default {
   display: flex;
 }
 
+.footer-card {
+  color: black;
+  font-size: smaller;
+  font-weight: 500;
+  line-height: 2px;
+  text-shadow: .5px .5px 1px dodgerblue;
+  padding-left: 2rem;
+}
+
 .bg-right {
   background-color: #dcecfa;
 }
@@ -367,6 +425,28 @@ export default {
 
 .email {
   font-size: .87rem;
+}
+
+body {
+  width: 2550px;
+  height: 3300px;
+}
+
+@media print {
+  .section-heading {
+    page-break-before: always;
+  }
+  .resume-section {
+    page-break-after: always;
+  }
+  .section-content {
+    page-break-inside: avoid;
+  }
+
+  @page {
+    size: 8.5in 11in;
+    margin: .5in;
+  }
 }
 
 </style>
