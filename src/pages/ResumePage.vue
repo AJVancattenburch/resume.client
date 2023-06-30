@@ -3,7 +3,7 @@
     <section class="resume card shadow rounded-1 w-100" style="">
       <div class="row d-flex">
 
-        <div class="col-4 bg-left text-center" style="background-color: rgba(49, 95, 243, 0.949);">
+        <div class="col-4 bg-left text-center py-5" style="background-color: rgba(49, 95, 243, 0.949);">
 
           <div class="row">
             <div class="col-12">
@@ -109,7 +109,7 @@
         </div>
 
 
-        <section class="col-8 bg-right">
+        <section class="col-8 bg-right py-5">
 
           <h1 class="my-name section-heading">Anthony Vancattenburch</h1>
           <div class="bg-profession-tag py-2">
@@ -117,21 +117,21 @@
           </div>
 
           <div class="row ps-4 mt-2">
-            <div class="col-12resume-section">
-              <h2 class="mt-3 text-uppercase card-header header-right section-heading"><u>career objective</u></h2>
-              <p class="text-justify card-text card-right">Driven by my personal journey and guided by a deep sense of purpose, I am excited to embark on this new chapter in my career. I bring perseverance, integrity, and a rapid learning ability to every project, striving to create impactful software solutions that push boundaries and drive positive change.</p>
+            <div class="col-12 resume-section">
+              <h3 class="mt-3 text-uppercase card-header header-right section-heading" style="width: 97%; box-shadow: 5px 5px 5px 5px #0a43fe2e"><u>career objective</u></h3>
+              <p class="text-justify card-text card-right" style="width: 96%;">Driven by my personal journey and guided by a deep sense of purpose, I am excited to embark on this new chapter in my career. I bring perseverance, integrity, and a rapid learning ability to every project, striving to create impactful software solutions that push boundaries and drive positive change.</p>
             </div>
           </div>
 
           <div class="row px-1 mt-5">
 
             <div class="col-6 card experience-card shadow mx-2 ms-5" style="width: 45%;">
-              <h2 class="card-header header-right mt-2 section-heading">Work Experience</h2>
-              <div class="col-12resume-section">
-                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2">US Mirror and Glass</p>
-                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2">Boise, Idaho</p>
-                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2 mb-3">Employed from 04/2020 to 02/2023</p>
-                <p class="text-uppercase bg-accent-small card-right w-50 ms-4 mt-0 ps-3" style="opacity: .9;">Key Responsibilities</p>
+              <h3 class="card-header header-right mt-2 section-heading" style="box-shadow: 5px 5px 5px 5px #0a43fe09;">Work Experience</h3>
+              <div class="col-12 resume-section">
+                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2"  style="box-shadow: 5px 5px 5px 1px #0a43fe09;">US Mirror and Glass</p>
+                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2"  style="box-shadow: 5px 5px 5px 1px #0a43fe09;">Boise, Idaho</p>
+                <p class="text-uppercase card-text card-right bg-accent-small p-1 px-3 my-2 rounded-2 mb-3"  style="box-shadow: 5px 5px 5px 1px #0a43fe09;">Employed from 04/2020 to 02/2023</p>
+                <p class="text-uppercase bg-accent-small card-right w-50 ms-4 mt-0 ps-3" style="opacity: .9; box-shadow: 5px 5px 5px 1px #0a43fe09;">Key Responsibilities</p>
                   <ul class="card-right ps-5">
                     <li class="resume-section">Problem-solving
                       <ul>
@@ -161,13 +161,13 @@
             </div>
             
             <div class="col-6 card experience-card shadow pb-3 ms-2" style="width: 45%;">
-              <h2 class="card-header header-right mb-0 mt-2 section-heading">Projects</h2>
+              <h3 class="card-header header-right mb-0 mt-2 section-heading" style="box-shadow: 5px 5px 5px 5px #0a43fe09;">Projects</h3>
 
               <div class="row">
                 <div class="col-12">
 
                   <article class="resume-section">
-                      <h5 class="card-header header-right bg-accent">Game Pursuit { Team Capstone }</h5>
+                      <h5 class="card-header header-right bg-accent" style="box-shadow: 5px 5px 5px 1px #0a43fe09;">Game Pursuit { Team Capstone }</h5>
       
                         <p class="card-text card-right">
                           Esports Platform. Gamers can sign up, be rewarded for their skills, and spend tokens to initiate tournaments and play for prizes, sponsor players for prizes, and grow their notability as a player.
@@ -176,7 +176,7 @@
                         </p>
                       
   
-                      <h5 class="card-header header-right bg-accent">Cohort Final</h5>
+                      <h5 class="card-header header-right bg-accent" style="box-shadow: 5px 5px 5px 1px #0a43fe09;">Cohort Final</h5>
                       
                         <p class="card-text card-right">
                           Cohort Final Description
@@ -185,7 +185,7 @@
                         </p>
                       
   
-                      <h5 class="card-header header-right bg-accent">Tower</h5>
+                      <h5 class="card-header header-right bg-accent" style="box-shadow: 5px 5px 5px 1px #0a43fe09;">Tower</h5>
                       
                         <p class="card-text card-right">
                           Event Ticket Selling Platform for buying any kind of event ticket. Account holders can also post events, and interact with others that are attending events they want to attend.
@@ -200,14 +200,14 @@
             </div>
           </div>
 
-          <div class="row ps-4 mt-5">
+          <div class="row px-4 mt-5">
             <div class="col-12">
-              <h2 class="mt-3 text-uppercase card-header section-heading"><u>Education</u></h2>
-              <h3 class="card-text card-right">Boise CodeWorks - Full Stack Certification</h3>
-              <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+              <h3 class="mt-3 text-uppercase card-header section-heading d-flex justify-content-center align-items-center" style="box-shadow: 5px 5px 15px 5px inset #dcecfa;"><u>Education</u></h3>
+              <h3 class="card-text card-header header-right" style="box-shadow: 5px 5px 5px 5px #0a43fe2e;">Boise CodeWorks - Full Stack Certification</h3>
+              <ul class="card-text card-right" style="filter: brightness(1);">
+                <li>Completed rigorous Full-Stack course that utilizes the latest industry standards in Software Development.</li>
+                <li>Worked in professional environments centered on real-world industry experience and creative problem solving.</li>
+                <li>Voted Idaho's #1 Specialty School.</li>
               </ul>
               <p class=""></p>
             </div>
@@ -216,7 +216,7 @@
           <div class="row ps-4 mt-5 ">
 
             <div class="col-6">
-              <h2 class="card-header header-right mt-3 text-uppercase mb-4 section-heading"><u>Certifications</u></h2>
+              <h3 class="card-header header-right mt-3 text-uppercase mb-4 section-heading" style="box-shadow: 5px 5px 5px 5px #0a43fe2e;"><u>Certifications</u></h3>
               <p class="text-uppercase card-text card-right"><a href="https://wildlearner-users-prod.s3.amazonaws.com/113750258787420158501/certificate_1677448947255.jpg">HTML Course - Cert ID: 832-html-403243</a></p>
 
               <p class="text-uppercase card-text card-right"><a href="https://wildlearner-users-prod.s3.amazonaws.com/113750258787420158501/certificate_1677609457823.jpg">CSS Course - Cert ID: 499-css-918572</a></p>
@@ -230,53 +230,44 @@
             </div>
 
             <div class="col-6 footer-card">
-              <h2 class="card-header header-right mt-3 text-uppercase mb-4 section-heading"><u>Technical Proficiencies</u></h2>
+              <h3 class="card-header header-right mt-3 text-uppercase mb-4 section-heading" style="box-shadow: 5px 5px 5px 5px #0a43fe2e;"><u>Proficiencies</u></h3>
 
-              <article class="resume-section">
-                <div class="col-12">EXPRESS / VUE.JS</div>
-                <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">
-                  <div class="progress-bar bg-success" style="width: 100%"></div>
-                </div>
-
-                <div class="col-12">NODE.JS</div>
-                <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-info text-dark" style="width: 100%"></div>
+              <article class="footer-card" style="">
+                <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-success" style="width: 100%">EXPRESS / VUE.JS</div>
                 </div>
 
-                <div class="col-12">RESTful API / CRUD</div>
-                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-danger" style="width: 90%"></div>
-                </div>
-  
-  
-                <div class="col-12">BOOTSTRAP / SCSS / SASS</div>
-                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-warning text-dark" style="width: 100%"></div>
-                </div>
-  
-                <div class="col-12">TAILWIND</div>
-                <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="">
-                  <div class="progress-bar bg-primary" style="width: 85%"></div>
-                </div>
-  
-                <div class="col-12">JAVASCRIPT</div>
-                <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-success text-dark" style="width: 100%"></div>
-                </div>
-  
-                <div class="col-12">MVC</div>
-                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-info text-dark" style="width: 100%"></div>
-                </div>
-  
-                <div class="col-12">C#</div>
-                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-danger" style="width: 60%"></div>
+                <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-info text-light" style="width: 100%">NODE.JS</div>
                 </div>
 
-                <div class="col-12">HTML5</div>
-                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar bg-warning" style="width: 100%"></div>
+                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-danger text-light" style="width: 90%; padding-left: 10%;">RESTful API / CRUD</div>
+                </div>
+  
+  
+                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-warning text-dark" style="width: 100%">BOOTSTRAP / SCSS / SASS</div>
+                </div>
+  
+                <div class="progress my-3" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-primary" style="width: 85%; padding-left: 15%;">TAILWIND</div>
+                </div>
+  
+                <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-success text-dark" style="width: 100%">JAVASCRIPT</div>
+                </div>
+  
+                <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-info text-light" style="width: 100%">MVC</div>
+                </div>
+  
+                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-danger text-light" style="width: 70%; padding-left: 30%;">C#</div>
+                </div>
+
+                <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height: 1.5rem; font-size: 1rem; background-color: #484a5b39;">
+                  <div class="progress-bar bg-warning" style="width: 100%">HTML5</div>
                 </div>
 
               </article>
@@ -361,13 +352,15 @@ export default {
   color: black;
   font-size: smaller;
   font-weight: 500;
-  line-height: 2px;
+  line-height: 0px;
   text-shadow: .5px .5px 1px dodgerblue;
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .bg-right {
   background-color: #dcecfa;
+  padding-right: 3rem;
 }
 
 .header-right {
